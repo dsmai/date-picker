@@ -1,13 +1,13 @@
-import './App.css';
-import DateBox from './components/DateBox';
-import Header from './components/Header';
+import "./App.css";
+import DateBox from "./components/DateBox";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <div className="date-box">
-        <DateBox/>
+        <DateBox />
       </div>
     </div>
   );
